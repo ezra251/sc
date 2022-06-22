@@ -4,7 +4,7 @@ const moment = require('moment');
 const gradient = require('gradient-string');
 const chalk = require('chalk');
 const rs = require('readline-sync');
-const delay = ('2000'); // 1000 = 1 detik
+const delay = ('1000'); // 1000 = 1 detik
 
 
 function sleep(ms) {
@@ -12,7 +12,7 @@ function sleep(ms) {
 }
 console.log(gradient('gray', 'white')(
 `\n\n
-   ██▀███  ▓██   ██▓ ▄▄▄       ███▄    █ 
+   Ezra  ▓██   ██▓ ▄▄▄       ███▄    █ 
   ▓██ ▒ ██▒ ▒██  ██▒▒████▄     ██ ▀█   █ 
   ▓██ ░▄█ ▒  ▒██ ██░▒██  ▀█▄  ▓██  ▀█ ██▒
   ▒██▀▀█▄    ░ ▐██▓░░██▄▄▄▄██ ▓██▒  ▐▌██▒
